@@ -1,17 +1,24 @@
 body {
-	background-color: #E1B0AC;
+	background-color: #eed7d5;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
 	margin: 0;
-	border: 3px solid red;  
-  	outline: 3px solid blue;  
+	border: 3px solid rgb(192, 133, 133);  
+  	outline: 3px solid rgb(162, 162, 231);  
   	border-radius: 15px;  
   
  	margin: 30px;  
   	padding: 30px;  
   	outline-offset: 0.5em;  
+	
+		font-style: italic;
+		
+			font-family: "fantasy", "papyrus", monospace;
+			font-weight: bold;
+		  
+	  
   }
   
   .card {
@@ -31,3 +38,8 @@ body {
 	padding-left: 7px;
 	padding-right: 7px;
   }
+
+
+
+
+  

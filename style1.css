@@ -1,6 +1,6 @@
 html, body{margin:0; padding:0;}
 
-body{background:hsl(192, 50%, 69%); padding:3em; font-family:arial}
+body{background:hsl(192, 50%, 69%); padding:3em; font-family: "Lucida Handwriting", cursive;}
 
 *{
   box-sizing:border-box;
@@ -9,16 +9,18 @@ body{background:hsl(192, 50%, 69%); padding:3em; font-family:arial}
 .heart-Circle{
   border:7px solid #fc2e5a;
   border-radius:260px;
-  height:140px;
+  height:340px;
   overflow:hidden;
   position:relative;
-  width:140px;
+  width:340px;
+  align-items: center;
+
 }
 
 .heart-Container{
-  left:11%;
+  left:35%;
   position:absolute;
-  top:20%;
+  top:35%;
   transition:all 0.35s;
 }
 
@@ -28,7 +30,7 @@ body{background:hsl(192, 50%, 69%); padding:3em; font-family:arial}
 }
 
 .heart{
-    height:90px;
+    height:190px;
     position:relative;
     width:50px; 
 }
@@ -156,14 +158,15 @@ body{background:hsl(192, 50%, 69%); padding:3em; font-family:arial}
 
 /*Button in Broken Page*/
 input[type=button], input[type=submit], input[type=reset] {
-    background-color: #04AA6D;
-    border: none;
-    color: white;
+    background-color: #e8cee2;
+    border:rounded;
+    color: rgb(92, 83, 83);
     padding: 16px 32px;
     text-decoration: none;
     margin: 4px 2px;
     margin-left: 530px;
     cursor: pointer;
+    border-style: groove;
   }
 
   @keyframes pulse {
