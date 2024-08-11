@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap" rel="stylesheet"> 
+  <title>Lovely Card</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <div class="card">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+         Maecenas ut euismod tellus. Aenean dapibus lectus quis nulla
+          consectetur, quis semper dolor dictum. Nullam blandit ligula tellus, vel ornare tellus ultricies
+           sed. Phasellus rutrum nunc quis nibh rhoncus finibus. Fusce eget augue eu neque consectetur cursus
+            nec nec neque. Nullam molestie congue convallis. Donec sit amet tincidunt tellus. Sed neque nisi
+            , sagittis ac fermentum ac, molestie at massa. Integer in laoreet justo, at molestie justo.
+             Donec sagittis, eros ut sagittis hendrerit, ipsum velit gravida nulla, id ultrices sem leo at nisl.
+              Praesent elementum rutrum justo, eget venenatis turpis blandit nec.
+
+        In ipsum velit, pretium eleifend erat vel, tincidunt tempus lacus. Quisque cursus elit mattis magna suscipit
+         ornare. Morbi commodo mi tincidunt massa eleifend volutpat. Aenean sed neque non augue vehicula consectetur et nec
+          velit. Morbi feugiat vehicula lacus. Aliquam hendrerit egestas orci
+          , sit amet sodales neque sollicitudin pretium. Donec magna nulla.</p>
+
+  </div>
+  <br><br><br>
+  <audio id="myAudio">
+    <source src="audio.mp3" type="audio/mpeg">
+  </audio>
+  
+  <p style="color: blue;">Lighten your mood and click.</p>
+  
+  <button onclick="playAudio()" type="button">Here</button> 
+  <br />
+  <p style="color: blue;">To talk to me click</p>
+  <button onclick="pauseAudio()" type="button">Here</button>
+
+  <p style="color: blue;">My Heart Feels like :)</p>
+  <a href="index3.html"><button onclick="pauseAudio()" type="button">Here</button></a>
+
+  <script>
+    var x = document.getElementById("myAudio"); 
+    
+    function playAudio() { 
+      x.play(); 
+    } 
+    
+    function pauseAudio() { 
+      x.pause(); 
+    } 
+    </script>
+</body>
+</html>
